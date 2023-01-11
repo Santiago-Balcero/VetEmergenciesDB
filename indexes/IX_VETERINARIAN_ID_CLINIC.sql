@@ -1,0 +1,6 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-2
+-- Description: creates INDEX for column ID_CLINIC in table VETERINARIAN
+
+CREATE INDEX IX_VETERINARIAN_ID_CLINIC ON APP_GEST_E_MASCOTAS.VETERINARIAN (ID_CLINIC);

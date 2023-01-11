@@ -1,0 +1,6 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-2
+-- Description: creates INDEX for column ID_CLIENT in table SUBSCRIPTION
+
+CREATE INDEX IX_SUBSCRIPTION_ID_CLIENT ON APP_GEST_E_MASCOTAS.SUBSCRIPTION (ID_CLIENT);

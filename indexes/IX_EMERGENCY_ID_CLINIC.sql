@@ -1,0 +1,6 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-2
+-- Description: creates INDEX for column ID_CLINIC in table EMERGENCY
+
+CREATE INDEX IX_EMERGENCY_ID_CLINIC ON APP_GEST_E_MASCOTAS.EMERGENCY (ID_CLINIC);

@@ -1,0 +1,6 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-6
+-- Description: creates constraint CHECK for column IS_ACTIVE in table VETERINARIAN
+
+ALTER TABLE APP_GEST_E_MASCOTAS.VETERINARIAN ADD CONSTRAINT CK_VETERINARIAN_IS_ACTIVE CHECK (IS_ACTIVE IN (1, 0));

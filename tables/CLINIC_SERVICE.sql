@@ -1,0 +1,12 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-11-24
+-- Description: creates table CLINIC_SERVICE as a join table for a many to many relationship
+-- between clinics and offered services
+
+CREATE TABLE APP_GEST_E_MASCOTAS.CLINIC_SERVICE (
+    MIX_ID_CLINIC NUMBER NOT NULL,
+    MIX_ID_SERVICE NUMBER NOT NULL
+);
+
+COMMENT ON TABLE APP_GEST_E_MASCOTAS.CLINIC_SERVICE IS 'JOIN TABLE FOR A MANY TO MANY RELATIONSHIP BETWEEN CLINICS AND OFFERED SERVICES';

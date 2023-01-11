@@ -1,0 +1,6 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-2
+-- Description: creates INDEX for column CLIENT_DOCUMENT in table CLIENT
+
+CREATE INDEX IX_CLIENT_CLIENT_DOCUMENT ON APP_GEST_E_MASCOTAS.CLIENT (CLIENT_DOCUMENT);

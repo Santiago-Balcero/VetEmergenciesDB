@@ -1,0 +1,11 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-2
+-- Description: creates table SPECIES for species that may get access to emergency services
+
+CREATE TABLE APP_GEST_E_MASCOTAS.SPECIES (
+    ID_SPECIES NUMBER NOT NULL,
+    SPECIES VARCHAR2(20) NOT NULL
+);
+
+COMMENT ON TABLE APP_GEST_E_MASCOTAS.SPECIES IS 'LIST OF SPECIES THAT MAY GET ACCESS TO EMERGENCY SERVICES';

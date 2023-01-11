@@ -1,0 +1,6 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-1
+-- Description: creates constraint UNIQUE for column CLIENT_DOCUMENT in table CLIENT
+
+ALTER TABLE APP_GEST_E_MASCOTAS.CLIENT ADD CONSTRAINT UQ_CLIENT_DOCUMENT UNIQUE (CLIENT_DOCUMENT);

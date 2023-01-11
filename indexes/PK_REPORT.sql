@@ -1,0 +1,6 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-12-15
+-- Description: creates PRIMARY KEY for table REPORT
+
+ALTER TABLE APP_GEST_E_MASCOTAS.REPORT ADD CONSTRAINT PK_REPORT PRIMARY KEY (ID_REPORT);

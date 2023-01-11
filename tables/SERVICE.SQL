@@ -1,0 +1,11 @@
+-- TC_SB_35
+-- By: Santiago Balcero
+-- Date: 2022-11-24
+-- Description: creates table SERVICE for list of services offered by clinics part of the agreement
+
+CREATE TABLE APP_GEST_E_MASCOTAS.SERVICE (
+    ID_SERVICE NUMBER NOT NULL,
+    SERVICE VARCHAR2(25) NOT NULL
+);
+
+COMMENT ON TABLE APP_GEST_E_MASCOTAS.SERVICE IS 'LIST OF SERVICES OFFERED BY CLINICS PART OF THE AGREEMENT';
